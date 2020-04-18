@@ -10,5 +10,5 @@ First, clone project to you computer.
 
 `git clone https://github.com/adhamlucas/news-covid19.git`
 
-After that, go to the project fold and open the home.html.
+After that, go to the project folder and open the home.html.
 
