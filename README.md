@@ -1,3 +1,5 @@
+![HomePage](imagens/tela-home.png)
+
 # News Covid-19
 
 ## Description
