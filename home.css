@@ -31,14 +31,16 @@ header {
 }
 
 .menu-item{
-    margin-left: 8px;
+    margin-left: 16px;
     text-decoration: none;
     display: block;
     font-size: 24px;
     font-weight: bold;
-    color: black;
-  
-    
+    color: black;    
+}
+
+.menu-item-last {
+    margin-left: 8px;
 }
 
 .menu-item:hover {
@@ -68,9 +70,13 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 16px;
+    padding: 16px 32px;
     margin-bottom: 32px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.news-descriptions-section {
+    padding-right: 60px;
 }
 
 .news-title {
@@ -90,8 +96,8 @@ header {
     font-size: 16px;
 }
 
-.news-image-section {
-    flex: 1;
+.news-media-section {
+    flex-grow: 1;
     width: 300px;
 }
 
@@ -99,6 +105,70 @@ header {
     border-radius: 8px;
     height: 160px;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 16px 128px;
+    align-items: center;
+    background-color: #6fd5f4;
+    position: initial;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.Copyright {
+    color: black;
+    font-size: 14px;
+    align-self: flex-end;
+}
+
+.receive-news {
+    align-self: center;
+}
+
+.receive-news p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.receive-news form {
+    display: flex;
+    flex-direction: column;
+    width: 16vmax;  
+}
+
+.receive-news form label {
+    color: black;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.receive-news form input {
+    font-size: 16px;
+    padding: 8px 8px;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.receive-news form button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 8px;
+    color: white;
+    background-color: #33a4c1;
+    border: none;
+}
+
+.receive-news form button:hover {
+    background-color:#a5ffff;
+    transition: 0.2s;
+}
+
+
 
 /*
     Primary Color: #6fd5f4

@@ -5,6 +5,8 @@
 ## Description
 News Covid-19 is a website to show the 6 better news about the covid-19. Done due to a challenge from Hiring Coders program.
 
+The cards news was inspired in google news cards.
+
 
 ## Usage
 
