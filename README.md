@@ -16,3 +16,7 @@ First, clone project to you computer.
 
 After that, go to the project folder and open the home.html.
 
+### Acess
+
+To acess the site, click here: [Covid19News](https://news-covid19-also.netlify.app/home.html)
+
