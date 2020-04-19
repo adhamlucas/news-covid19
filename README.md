@@ -1,6 +1,6 @@
 ![HomePage](imagens/tela-home.png)
 
-# News Covid-19
+# News Covid19
 
 ## Description
 News Covid-19 is a website to show the 6 better news about the covid-19. Done due to a challenge from Hiring Coders program.

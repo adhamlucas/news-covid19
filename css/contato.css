@@ -14,12 +14,15 @@ header {
     padding: 8px 128px;
 }
 
-.logo-header {
+.logo-header{
     display: flex;
+    color: black;
+    flex-direction: row;
+    text-decoration: none;
 }
 
 .logo {
-    margin-right: 8px;
+    margin-right: 12px;
 }
 
 .menu-header {

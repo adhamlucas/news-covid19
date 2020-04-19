@@ -14,12 +14,15 @@ header {
     padding: 8px 128px;
 }
 
-.logo-header {
+.logo-header{
     display: flex;
+    color: black;
+    flex-direction: row;
+    text-decoration: none;
 }
 
 .logo {
-    margin-right: 8px;
+    margin-right: 12px;
 }
 
 .menu-header {
@@ -54,15 +57,61 @@ header {
     color: #a5ffff;
 }
 
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
-    margin: 16px 0px auto 0px;
+    justify-content: center;
+    margin: auto 0px;
 }
 
+.user-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 992px;
+}
 
+.user-image {
+    width: 200px;
+    height: 200px;
+    overflow:  hidden;
+    border-radius: 50%;
+}
+
+.user-image img {
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.user-name {
+    margin: 16px 0px;
+}
+
+.user-name p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.user-ln-git a{
+    text-decoration: none;
+}
+
+.user-ln-git a:first-child {
+    margin-right: 16px;
+}
+
+.user-description {
+    padding: 0px 128px;
+}
+
+.user-description p {
+    font-size: 18px;
+}
 
 
 footer {
